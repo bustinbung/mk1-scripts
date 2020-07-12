@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>check-cellular</key>
+	<dict>
+		<key>triggers</key>
+		<array>
+			<string>WIFI-NETWORKCHANGE</string>
+		</array>
+	</dict>
+	<key>device-lock</key>
+	<dict>
+		<key>triggers</key>
+		<array>
+			<string>DEVICE-SHAKE</string>
+		</array>
+	</dict>
+	<key>power-menu</key>
+	<dict>
+		<key>triggers</key>
+		<array>
+			<string>STATUSBAR-LONGPRESS</string>
+		</array>
+	</dict>
+	<key>ring-phone</key>
+	<dict>
+		<key>triggers</key>
+		<array/>
+	</dict>
+	<key>toggle-lpm</key>
+	<dict>
+		<key>triggers</key>
+		<array>
+			<string>STATUSBAR-DOUBLETAP</string>
+		</array>
+	</dict>
+</dict>
+</plist>
